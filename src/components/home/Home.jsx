@@ -21,14 +21,14 @@ const Home = () => {
    useEffect(() =>{
     const interval = setInterval(() => {
         setCurrentIndex(prev => (prev + 1) % bgImage.length )
-    },8000);
+    },10000);
     return () => 
         clearInterval(interval)
    },[])
 
   return (
     <div className='relative max-w-full min-h-screen bg-black overflow-hidden' id='home'>
-        <AnimatePresence>
+        
             <motion.img 
                 key={currentIndex}
                 src={bgImage[currentIndex]} alt="" 
@@ -37,7 +37,7 @@ const Home = () => {
                 animate={{scale:1.2,opacity:0}}  
                 transition={{duration:20,bounce:20}} 
             />
-        </AnimatePresence>
+       
 
         <div className='absolute w-full h-full top-0 text-white flex items-center' >
             <div className='max-w-7xl w-full mx-auto flex items-center justify-center px-3 lg:px-10' >
