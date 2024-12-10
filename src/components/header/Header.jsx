@@ -9,24 +9,24 @@ const Header = () => {
         setOpen((prev) => prev===true? prev=false : prev=true  )
     }
 
-    const [scrolled,setScrolled] = useState(false); //pour changer de couleur lorsque on scroll
-    useEffect(()=>{
-      const myScroll = () =>{
-        if(window.scrollY > 200){
-          setScrolled(true)
-        }else{
-          setScrolled(false)
-        }}
-        window.addEventListener("scroll", myScroll)
+    // const [scrolled,setScrolled] = useState(false); //pour changer de couleur lorsque on scroll
+    // useEffect(()=>{
+    //   const myScroll = () =>{
+    //     if(window.scrollY > 200){
+    //       setScrolled(true)
+    //     }else{
+    //       setScrolled(false)
+    //     }}
+    //     window.addEventListener("scroll", myScroll)
   
-        return () =>{
-          window.removeEventListener("scroll" , myScroll)
-        }
-      },[])
+    //     return () =>{
+    //       window.removeEventListener("scroll" , myScroll)
+    //     }
+    //   },[])
 
   return (
-    <div className={`${scrolled&&'shadow-lg'} fixed bg-transparent z-50 w-full py-5`} >
-        <div className='max-w-7xl mx-auto flex justify-between items-center px-7' >
+    <div className={`fixed shadow-lg bg-gradient-to-l to-[#f5ceb3] from-[#cc7d48] z-50 w-full py-5`} >
+        <div className='max-w-7xl mx-auto flex justify-between items-center px-3 lg:px-7' >
             <a href="#home">
                 <div className='flex items-center gap-3' >
                     <MdCoffee className='text-2xl text-[#a86132] ' />
@@ -56,7 +56,7 @@ const Header = () => {
 
             <div className='flex gap-5' >
                 <button
-                    className='py-2 border border-[#a16237] text-[#a16237] px-5 rounded-full text-sm font-semibold hover:bg-[#df7e3e] hover:text-white duration-150'
+                    className='py-2 border lg:border-2 border-[#975224] text-[#fdfdfd] px-3 lg:px-5 rounded-full text-xs lg:text-sm font-semibold hover:bg-[#975224] duration-150'
                     >Se connecter
                 </button>
 
