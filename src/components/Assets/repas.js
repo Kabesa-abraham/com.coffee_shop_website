@@ -9,9 +9,9 @@ import product1 from './img1.png'
 import product2 from './img9.jpg'
 import product3 from './img10.jpg'
 
-// import profile1 from './avatar1.png'
-// import profile2 from './avatar2.png'
-// import profile3 from './hero.png'
+import profile1 from './avatar1.png'
+import profile2 from './avatar2.png'
+import profile3 from './hero.png'
 
 export const cafes = [
     {
@@ -67,33 +67,34 @@ export const productData = [
     }
 ]
 
-// export const profileReview = [
-//     {
-//         id:1,
-//         name:"Joe biderner",
-//         profieleImg:profile1,
-//         reviews:`Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
-//                  Veniam in dignissimos cupiditate sint dolor qui omnis saepe earum possimus
-//                   vitae nobis aperiam, non quod aliquid, distinctio excepturi facilis 
-//                   exercitationem perferendis`
-//     },
-//     {
-//         id:2,
-//         name:"Aler icene",
-//         profieleImg:profile2,
-//         reviews:`Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
-//                  Veniam in dignissimos cupiditate sint dolor qui omnis saepe earum possimus
-//                   vitae nobis aperiam, non quod aliquid, distinctio excepturi facilis 
-//                   exercitationem perferendis`
-//     },
-//     {
-//         id:3,
-//         name:"Laurin Alfin",
-//         profieleImg:profile3,
-//         reviews:`Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
-//                  Veniam in dignissimos cupiditate sint dolor qui omnis saepe earum possimus
-//                   vitae nobis aperiam, non quod aliquid, distinctio excepturi facilis 
-//                   exercitationem perferendis? vitae nobis aperiam, non quod aliquid, distinctio excepturi facilis 
-//                   exercitationem perferendis`
-//     }
-// ]
+export const profileReview = [
+   
+    {
+        id:1,
+        name:"Aler icene",
+        profieleImg:profile2,
+        reviews:`Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
+                 Veniam in dignissimos cupiditate sint dolor qui omnis saepe earum possimus
+                  vitae nobis aperiam, non quod aliquid, distinctio excepturi facilis 
+                  exercitationem perferendis`
+    },
+    {
+        id:2,
+        name:"Joe biderner",
+        profieleImg:profile1,
+        reviews:`Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
+                 Veniam in dignissimos cupiditate sint dolor qui omnis saepe earum possimus
+                  vitae nobis aperiam, non quod aliquid, distinctio excepturi facilis 
+                  exercitationem perferendis`
+    },
+    {
+        id:3,
+        name:"Laurin Alfin",
+        profieleImg:profile3,
+        reviews:`Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
+                 Veniam in dignissimos cupiditate sint dolor qui omnis saepe earum possimus
+                  vitae nobis aperiam, non quod aliquid, distinctio excepturi facilis 
+                  exercitationem perferendis? vitae nobis aperiam, non quod aliquid, distinctio excepturi facilis 
+                  exercitationem perferendis`
+    }
+]
