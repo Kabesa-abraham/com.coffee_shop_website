@@ -1,5 +1,6 @@
 import About from "./components/about/About";
 import CustomerReview from "./components/customerReview/CustomerReview";
+import Footer from "./components/footer/Footer";
 import Header from "./components/header/Header";
 import Home from "./components/home/Home";
 import Menu from "./components/menu/Menu";
@@ -14,6 +15,7 @@ function App() {
       <About/>
       <Product/>
       <CustomerReview/>
+      <Footer/>
     </div>
   )
 }
