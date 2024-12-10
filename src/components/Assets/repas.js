@@ -5,11 +5,15 @@ import coffee4 from './cafe4.jpg'
 import coffee5 from './cafe5.png'
 import coffee6 from './cafe6.jpg'
 
+import product1 from './img1.png'
+import product2 from './img9.jpg'
+import product3 from './img10.jpg'
+
 // import profile1 from './avatar1.png'
 // import profile2 from './avatar2.png'
 // import profile3 from './hero.png'
 
-export const repas = [
+export const cafes = [
     {
         id:1,
         image:coffee1,
@@ -42,6 +46,26 @@ export const repas = [
     },
 ];
 
+export const productData = [
+    {
+        id:1,
+        name:"Nespresso",
+        image:product1,
+        price:18.99
+    },
+    {
+        id:2,
+        name:"AeroPress",
+        image:product2,
+        price:20.95
+    },
+    {
+        id:3,
+        name:"Chemex",
+        image:product3,
+        price:15.09
+    }
+]
 
 // export const profileReview = [
 //     {
